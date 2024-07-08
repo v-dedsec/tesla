@@ -32,10 +32,10 @@ body {
   background-color: rgba(255, 255, 255, 0.8); /* Added background color */
   display: flex;
   align-items: center;
-  position: fixed; /* Changed to fixed */
+  position: fixed;
   top: 0;
-  z-index: 1000; /* High z-index to ensure visibility */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+  z-index: 1000;
+  
 }
 
 .center-nav {
@@ -360,12 +360,15 @@ body {
   }
 }
 
+
+
 .hamburg {
   font-size: 1.8rem;
   font-weight: 800;
   list-style: none;
   display: none;
-  position: fixed;
+  position: absolute;
+  
 }
 
 @media (max-width: 700px) {
